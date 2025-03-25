@@ -1,4 +1,4 @@
-```markdown
+
 # Client-Server String Processor
 
 A client-server application that generates random strings, sends them to a server for processing, and logs the results. The server calculates a "weight" for each string based on specific rules.
@@ -103,5 +103,3 @@ def get_ponderation(self, chain: str) -> str:
 - All generated files are overwritten on each execution
 - Processing time is logged for performance monitoring
 - Use `CTRL+C` to terminate if needed
-
-```
